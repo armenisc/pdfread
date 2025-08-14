@@ -52,7 +52,7 @@ def extract_text_from_pdf(pdf_path: str) -> str:
         return ''
 
 def clean_value(value: str) -> str:
-    #Limpia el valor eliminando R$ y todo lo que está después de Base:"""
+    #Limpia el valor eliminando R$  lo que está después de Base:"""
     if not value:
         return value
     
